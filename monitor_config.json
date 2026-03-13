@@ -1,0 +1,18 @@
+{
+  "alert_thresholds": {
+    "normal": 5,
+    "warning": 10,
+    "critical": 20
+  },
+  "consecutive_alert_count": 3,
+  "report_schedule": {
+    "daily_time": "09:00",
+    "weekly_day": "Monday",
+    "weekly_time": "10:00"
+  },
+  "notification": {
+    "incremental_only": true,
+    "max_display_count": 10,
+    "urgent_mention_all": true
+  }
+}
