@@ -1,0 +1,22 @@
+{
+  "api": {
+    "base_url": "https://cep.chanjet.com.cn",
+    "login_url": "/api/auth/login",
+    "order_list_url": "/new-prod/order/V1/simple_order_list/",
+    "timeout": 30
+  },
+  "account": {
+    "username": "xuweida@chanjet.com",
+    "password_env": "ORDER_MONITOR_PASSWORD"
+  },
+  "monitor": {
+    "check_interval_minutes": 30,
+    "time_range_hours": 1,
+    "order_status": "API执行失败"
+  },
+  "output": {
+    "to_chat": true,
+    "to_email": false,
+    "email_recipient": "xuweida@chanjet.com"
+  }
+}
